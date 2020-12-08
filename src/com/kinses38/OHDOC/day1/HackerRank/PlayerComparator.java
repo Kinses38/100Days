@@ -1,9 +1,6 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
 import java.util.Arrays;
 import java.util.Comparator;
 
-//https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
 class Player {
     public String name;
     public int score;
@@ -27,6 +24,7 @@ class Checker implements Comparator<Player> {
 
 class PlayerComparator {
 
+    //https://www.hackerrank.com/challenges/ctci-comparator-sorting/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
     public static void main(String[] args) {
         Checker checker = new Checker();
         Player player1 = new Player("amy", 100);

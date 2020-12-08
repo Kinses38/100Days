@@ -1,9 +1,7 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
 import java.util.Arrays;
 
-//https://www.hackerrank.com/challenges/ctci-bubble-sort/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
 public class CountSwaps {
+    //https://www.hackerrank.com/challenges/ctci-bubble-sort/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting
 
     static void swap(int[] arr, int i, int j) {
         int tmp;

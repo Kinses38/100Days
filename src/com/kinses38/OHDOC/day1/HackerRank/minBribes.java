@@ -1,8 +1,6 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
-//https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
 public class minBribes {
 
+    //https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
     static void minimumBribes(int[] q) {
         //Can we count the bribes by looking only at values that are higher in the queue
         // than they should be and counting their difference from index?

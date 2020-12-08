@@ -1,12 +1,10 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//https://www.hackerrank.com/challenges/frequency-queries/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 public class FrequencyQuery {
+    //https://www.hackerrank.com/challenges/frequency-queries/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 
     static List<Integer> freqQueryInefficient(int[][] queries) {
         List<Integer> results = new ArrayList<>();
