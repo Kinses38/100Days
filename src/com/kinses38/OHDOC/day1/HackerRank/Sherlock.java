@@ -1,10 +1,8 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
 import java.util.Arrays;
 import java.util.HashMap;
 
-//https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 public class Sherlock {
+    //https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 
     static int sherlockAndAnagrams(String s) {
         int ans = 0;

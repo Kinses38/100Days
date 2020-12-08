@@ -1,12 +1,10 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Given an array of integers 'a' and integer sum, see if there exists a pair in 'a' that equals the sum.
- */
 public class ContainsSum {
+    /**
+     * Given an array of integers 'a' and integer sum, see if there exists a pair in 'a' that equals the sum.
+     */
 
     public static boolean sol(int[] a, int sum) {
         Set<Integer> set = new HashSet<>();

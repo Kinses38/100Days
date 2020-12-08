@@ -1,11 +1,9 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
-/**
- * There is a string, s , of lowercase English letters that is repeated infinitely many times.
- * Given an integer, n , find and print the number of letter a's in the first n letters of the infinite string.
- */
 public class RepeatedString {
 
+    /**
+     * There is a string, s , of lowercase English letters that is repeated infinitely many times.
+     * Given an integer, n , find and print the number of letter a's in the first n letters of the infinite string.
+     */
     //https://www.hackerrank.com/challenges/repeated-string/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
     static long repeatedString(String s, long n) {
         long ans = 0;

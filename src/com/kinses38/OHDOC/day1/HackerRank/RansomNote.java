@@ -1,9 +1,7 @@
-package com.kinses38.OHDOC.day1.HackerRank;
-
 import java.util.HashMap;
 
-//https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 public class RansomNote {
+    //https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps
 
     static void checkMagazine(String[] magazine, String[] note) {
         HashMap<String, Integer> map = new HashMap<>();
