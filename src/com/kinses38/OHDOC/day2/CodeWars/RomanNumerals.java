@@ -44,15 +44,13 @@ public class RomanNumerals {
         return result.toString();
 
     }
-//TODO WIP
+
     public static int fromRoman(String romanNumeral) {
         int result = 0;
         for (int i = 0; i < romanNumeral.length(); i++) {
-            //this was i + 2 < sub length for far too long. Easy slip up
-            if (i - 2 < romanNumeral.substring(i).length() && romToDec.containsKey(romanNumeral.substring(i, i + 2))) {
+            if (romanNumeral.substring(i).length() >= 2 && romToDec.containsKey(romanNumeral.substring(i, i + 2))) {
                 result += romToDec.get(romanNumeral.substring(i, i + 2));
                 i++;
-
             } else {
                 result += romToDec.get(romanNumeral.substring(i, i + 1));
             }
