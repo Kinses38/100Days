@@ -2,7 +2,7 @@ package com.kinses38.OHDOC.day5;
 
 public class Keypad {
 
-    //TODO redo
+    //TODO redo with map/stream
     static String[] keyboard = {"1", "ABC2", "DEF3", "GHI4", "JKL5", "MNO6", "PQRS7", "TUV8", "WXYZ9", "*", "#", " 0"};
 
     public static int presses(String phrase) {
@@ -16,6 +16,13 @@ public class Keypad {
                 }
             }
         }
+
+        return result;
+    }
+
+    public static int pressesMap(String phrase){
+        int result = 0;
+
 
         return result;
     }

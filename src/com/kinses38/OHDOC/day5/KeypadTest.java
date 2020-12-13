@@ -10,5 +10,6 @@ public class KeypadTest {
         assertEquals(9, Keypad.presses("LOL"));
         assertEquals(13, Keypad.presses("HOW R U"));
         assertEquals(11, Keypad.presses("PQRST"));
+        assertEquals(47, Keypad.presses("WHERE DO U WANT 2 MEET L8R"));
     }
 }
