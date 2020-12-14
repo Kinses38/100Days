@@ -1,4 +1,4 @@
-package com.kinses38.OHDOC.day7;
+package com.kinses38.OHDOC.day7.CodeWars;
 
 import org.junit.Test;
 

@@ -1,9 +1,9 @@
-package com.kinses38.OHDOC.day3;
+package com.kinses38.OHDOC.day3.CodeWars;
 
 
 import org.junit.Test;
 
-import static com.kinses38.OHDOC.day3.Interval.sumIntervals;
+import static com.kinses38.OHDOC.day3.CodeWars.Interval.sumIntervals;
 import static org.junit.Assert.assertEquals;
 
 public class IntervalTest {

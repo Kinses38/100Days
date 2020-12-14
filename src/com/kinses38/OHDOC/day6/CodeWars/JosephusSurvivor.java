@@ -1,4 +1,4 @@
-package com.kinses38.OHDOC.day6;
+package com.kinses38.OHDOC.day6.CodeWars;
 
 public class JosephusSurvivor {
 

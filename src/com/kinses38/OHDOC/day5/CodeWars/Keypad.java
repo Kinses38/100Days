@@ -1,4 +1,4 @@
-package com.kinses38.OHDOC.day5;
+package com.kinses38.OHDOC.day5.CodeWars;
 
 public class Keypad {
 
