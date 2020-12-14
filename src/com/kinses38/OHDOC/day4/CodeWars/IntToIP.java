@@ -1,4 +1,4 @@
-package com.kinses38.OHDOC.day4;
+package com.kinses38.OHDOC.day4.CodeWars;
 
 public class IntToIP {
 

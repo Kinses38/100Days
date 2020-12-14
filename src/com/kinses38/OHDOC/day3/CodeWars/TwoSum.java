@@ -1,4 +1,4 @@
-package com.kinses38.OHDOC.day3;
+package com.kinses38.OHDOC.day3.CodeWars;
 
 import java.util.Arrays;
 import java.util.HashMap;
