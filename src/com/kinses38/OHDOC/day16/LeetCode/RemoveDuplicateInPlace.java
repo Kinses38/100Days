@@ -1,4 +1,4 @@
-package com.kinses38.OHDOC.day10.LeetCode;
+package com.kinses38.OHDOC.day16.LeetCode;
 
 import java.util.Arrays;
 
